@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
-    "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+    "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "browser": "browser-sync start --server --config=bs-config.js"
   }
 }
